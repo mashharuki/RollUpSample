@@ -40,14 +40,18 @@ roller config init --interactive
 froopyland 用のアドレスと celestia 用のアドレスが出力される。
 
 ```bash
- Total Token Supply: 1,000,000,000 MASH. Note that 1 MASH == 1 * 10^18 uMASH (like 1 ETH == 1 * 10^18 wei).
+ 💈 RollApp 'mash_2478033-1' configuration files have been successfully generated on your local machine. Congratulations!
+
+💰 Total Token Supply: 10,000,000 MASH. Note that 1 MASH == 1 * 10^18 uMASH (like 1 ETH == 1 * 10^18 wei).
 
 🔑 Addresses:
 
-  Sequencer, froopyland_100-1    | dym1m7x5uz2vp7uqv3u60wahe23gcpsl3r6x7n4nq7
+  Sequencer, froopyland_100-1    | dym1kq272wesvvs3pqhr08u4rq4rr0dmalye4telje
   Hub                            |
-  Relayer, froopyland_100-1 Hub  | dym19ss04xrnyhypjlspnz2l4s4f0mu8v8c69yxzhz
-  DA, arabica Network            | celestia14tcwhqsm84vlhhvert2lufrjjt006hyxa9k4qr
+  Relayer, froopyland_100-1 Hub  | dym13msdslm5tphwdcsp83lmwjmt2k9u40n8370qmc
+  DA, arabica Network            | celestia1qngsemtaevjc2w4t7dyjsx4z0rx5kge9ptjwpc
+
+🔔 Please fund these addresses to register and run the rollapp.
 ```
 
 discord で faucet をもらうこと！！
@@ -61,7 +65,7 @@ roller tx register
 ```
 
 ```bash
-💈 Rollapp 'test_2457805-1' has been successfully registered on the hub.
+💈 Rollapp 'mash_2478033-1' has been successfully registered on the hub.
 ```
 
 roller を起動する。
